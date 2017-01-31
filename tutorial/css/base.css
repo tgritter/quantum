@@ -87,7 +87,7 @@ canvas:focus {
 
 #tutorial {
     font-family: Monospace;
-    color: #ff0000;
+    color: #fff;
     margin-left: 200px;
 }
 ul.drop a {
@@ -163,6 +163,24 @@ ul.drop li:hover > ul {
     padding: 20px;
 }
 
+#tutorial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
 
+#tutorial div {
+    margin-top: 50px;
+    display: inline-block;
+    width: 640px;
+    height: 480px;
+    overflow-y: scroll;
+    background-color: #fff;
+    z-index: 901;
+    padding: 20px;
+}
 
 
