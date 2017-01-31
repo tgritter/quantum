@@ -166,12 +166,10 @@ ul.drop li:hover > ul {
 
 #iframe {
   text-align: center;
-  width:100%;
+  width: 1000px;
+  height: 1000px;
 }
-.iframe{
-  width: 200px;
-  height: 400px;
-}
+
 
 
 
