@@ -90,6 +90,7 @@ canvas:focus {
     color: #000;
     margin-left: 50px;
 }
+
 ul.drop a {
     display:block;
     text-decoration: none;
@@ -161,6 +162,14 @@ ul.drop li:hover > ul {
     background-color: #fff;
     z-index: 901;
     padding: 20px;
+}
+
+div {
+  text-align: center;
+  width:100%;
+}
+.iframe{
+  width: 200px;
 }
 
 
