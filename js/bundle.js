@@ -1200,10 +1200,7 @@ quantum.qft = (nqubits) => {
     return new numeric.T(x, y).div(Math.sqrt(n));
 };
 
-quantum.srn = new numeric.T(
-    numeric.div([[1, -1], [1, 1]], Math.sqrt(2)),
-    numeric.rep([2, 2], 0)
-);
+
 
 },{}],9:[function(require,module,exports){
 const quantum = require('./quantum');
