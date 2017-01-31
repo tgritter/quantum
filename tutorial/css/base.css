@@ -90,6 +90,7 @@ canvas:focus {
     color: #000;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
 }
 
 ul.drop a {
