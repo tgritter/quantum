@@ -84,6 +84,12 @@ canvas:focus {
 #menubar > li {
     margin-right: 2px;
 }
+
+#tutorial {
+    font-family: Monospace;
+    color: #ff0000;
+    margin-left: 50px;
+}
 ul.drop a {
     display:block;
     text-decoration: none;
@@ -156,3 +162,5 @@ ul.drop li:hover > ul {
     z-index: 901;
     padding: 20px;
 }
+
+
