@@ -740,8 +740,6 @@ module.exports = {
 
     BELL_STATE: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "x", "time": 1, "targets": [1], "controls": [0] }], "qubits": 2, "input": [0, 0] },
 
-    DEUTSCH_JOZSA: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "h", "time": 0, "targets": [1], "controls": [] }], { "type": "h", "time": 0, "targets": [2], "controls": [] }, "qubits": 3, "input": [0, 0, 0] },
-
     QFT2: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "r2", "time": 1, "targets": [0], "controls": [1] }, { "type": "h", "time": 2, "targets": [1], "controls": [] }, { "type": "swap", "time": 3, "targets": [0, 1], "controls": [] }], "qubits": 2, "input": [0, 0] },
 
     QFT4: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "r2", "time": 1, "targets": [0], "controls": [1] }, { "type": "r4", "time": 2, "targets": [0], "controls": [2] }, { "type": "r8", "time": 3, "targets": [0], "controls": [3] }, { "type": "h", "time": 4, "targets": [1], "controls": [] }, { "type": "r2", "time": 5, "targets": [1], "controls": [2] }, { "type": "r4", "time": 6, "targets": [1], "controls": [3] }, { "type": "h", "time": 7, "targets": [2], "controls": [] }, { "type": "r2", "time": 8, "targets": [2], "controls": [3] }, { "type": "h", "time": 9, "targets": [3], "controls": [] }, { "type": "swap", "time": 10, "targets": [2, 1], "controls": [] }, { "type": "swap", "time": 11, "targets": [0, 3], "controls": [] }], "qubits": 4, "input": [0, 0, 0, 0] },
@@ -1050,7 +1048,7 @@ window.onload = function () {
         return vars;
     };
 
-    var EXAMPLES = [["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["Quantum Teleportation", examples.TELEPORTATION]];
+    var EXAMPLES = [["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["2 Qubit QFT", examples.QFT2], ["4 Qubit QFT", examples.QFT4], ["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Quantum Teleportation", examples.TELEPORTATION]];
     var examplesEl = document.querySelector('#examples');
     EXAMPLES.forEach(function (example, i) {
         var name = example[0];
