@@ -685,12 +685,13 @@ module.exports = {
         {"type":"swap","time":3,"targets":[0,1],"controls":[]}
     ],"qubits":2,"input":[0,0]},
 
-    QFT4: {"circuit":[
+    DJ: {"circuit":[
         {"type":"h","time":0,"targets":[0],"controls":[]},
         {"type":"h","time":0,"targets":[1],"controls":[]},
         {"type":"h","time":0,"targets":[2],"controls":[]},
         {"type":"h","time":2,"targets":[2],"controls":[]},
         {"type":"z","time":3,"targets":[0],"controls":[]},
+        {"type":"x","time":3,"targets":[2],"controls":[1]},
         {"type":"h","time":4,"targets":[2],"controls":[]},
         {"type":"h","time":6,"targets":[0],"controls":[]},
         {"type":"h","time":6,"targets":[1],"controls":[]},
@@ -1025,7 +1026,7 @@ window.onload = () => {
     }
 
     const EXAMPLES = [
-        ["Deutsch-Jozsa Algorithm", examples.QFT4],
+        ["Deutsch-Jozsa", examples.DJ],
         ["Grover's Algorithm", examples.GROVERS_ALGORITHM],
         ["Toffoli", examples.TOFFOLI],
         ["Bell State", examples.BELL_STATE],
