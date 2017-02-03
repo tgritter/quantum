@@ -1050,7 +1050,7 @@ window.onload = function () {
         return vars;
     };
 
-    var EXAMPLES = [["DJ", examples.DJ],["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Quantum Teleportation", examples.TELEPORTATION]];
+    var EXAMPLES = [["DJ", examples.DJ], ["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["Quantum Teleportation", examples.TELEPORTATION]];
     var examplesEl = document.querySelector('#examples');
     EXAMPLES.forEach(function (example, i) {
         var name = example[0];
