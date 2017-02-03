@@ -76,7 +76,7 @@ module.exports = {
         {"type":"swap","time":11,"targets":[0,3],"controls":[]}
     ],"qubits":4,"input":[0,0,0,0]},
 
-    TOFFOLItest: {"circuit":[
+    TOFFOLI: {"circuit":[
         {"type":"h","time":0,"targets":[2],"controls":[]},
         {"type":"s","time":1,"targets":[2],"controls":[1]},
         {"type":"x","time":2,"targets":[1],"controls":[0]},

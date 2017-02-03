@@ -213,7 +213,7 @@ window.onload = () => {
     }
 
     const EXAMPLES = [
-        ["Toffolitest", examples.TOFFOLItest],
+        ["Toffoli", examples.TOFFOLI],
         ["Bell State", examples.BELL_STATE],
         ["2 Qubit QFT", examples.QFT2],
         ["4 Qubit QFT", examples.QFT4],
