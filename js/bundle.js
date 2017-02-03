@@ -1028,11 +1028,10 @@ window.onload = () => {
     }
 
     const EXAMPLES = [
+        ["DJ", examples.QFT4],
+        ["Grover's Algorithm", examples.GROVERS_ALGORITHM],
         ["Toffoli", examples.TOFFOLI],
         ["Bell State", examples.BELL_STATE],
-        ["2 Qubit QFT", examples.QFT2],
-        ["4 Qubit QFT", examples.QFT4],
-        ["Grover's Algorithm", examples.GROVERS_ALGORITHM],
         ["Quantum Teleportation", examples.TELEPORTATION],
     ];
     const examplesEl = document.querySelector('#examples');
