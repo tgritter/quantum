@@ -219,6 +219,7 @@ window.onload = () => {
         ["4 Qubit QFT", examples.QFT4],
         ["Grover's Algorithm", examples.GROVERS_ALGORITHM],
         ["Quantum Teleportation", examples.TELEPORTATION],
+        ["Deutsch-Jozsa", examples.DEUTSCH_JOZSA],
     ];
     const examplesEl = document.querySelector('#examples');
     EXAMPLES.forEach((example, i) => {
