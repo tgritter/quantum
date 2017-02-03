@@ -740,7 +740,7 @@ module.exports = {
 
     BELL_STATE: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "x", "time": 1, "targets": [1], "controls": [0] }], "qubits": 2, "input": [0, 0] },
 
-    DJ: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "x", "time": 1, "targets": [1], "controls": [0] }], "qubits": 2, "input": [0, 0] },
+    DJ: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "h", "time": 0, "targets": [1], "controls": [] }], "qubits": 2, "input": [0, 0] },
 
     QFT2: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "r2", "time": 1, "targets": [0], "controls": [1] }, { "type": "h", "time": 2, "targets": [1], "controls": [] }, { "type": "swap", "time": 3, "targets": [0, 1], "controls": [] }], "qubits": 2, "input": [0, 0] },
 
