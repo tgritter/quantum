@@ -88,6 +88,19 @@ module.exports = {
         {"type":"h","time":8,"targets":[2],"controls":[]}
     ],"qubits":3,"input":[0,0,0]},
 
+    DEUTSCH_JOZSA: {"circuit":[
+        {"type":"h","time":0,"targets":[0],"controls":[]},
+        {"type":"h","time":0,"targets":[1],"controls":[]},
+        {"type":"h","time":0,"targets":[2],"controls":[]},
+        {"type":"h","time":2,"targets":[2],"controls":[]},
+        {"type":"x","time":3,"targets":[2],"controls":[1]},
+        {"type":"z","time":3,"targets":[0],"controls":[0]},
+        {"type":"h","time":4,"targets":[2],"controls":[]},
+        {"type":"h","time":6,"targets":[0],"controls":[]},
+        {"type":"h","time":6,"targets":[1],"controls":[]},
+        {"type":"h","time":6,"targets":[2],"controls":[]}
+    ],"qubits":3,"input":[0,0,0]},
+
     TELEPORTATION: {"gates":[
         {"name":"TEL","qubits":3,"circuit":[
             {"type":"h","time":0,"targets":[0],"controls":[]},
