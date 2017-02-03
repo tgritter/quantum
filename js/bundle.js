@@ -690,6 +690,7 @@ module.exports = {
         {"type":"h","time":0,"targets":[1],"controls":[]},
         {"type":"h","time":0,"targets":[2],"controls":[]},
         {"type":"h","time":2,"targets":[2],"controls":[]},
+        {"type":"z","time":3,"targets":[0],"controls":[]},
         {"type":"h","time":4,"targets":[2],"controls":[]},
         {"type":"h","time":6,"targets":[0],"controls":[]},
         {"type":"h","time":6,"targets":[1],"controls":[]},
@@ -1024,7 +1025,7 @@ window.onload = () => {
     }
 
     const EXAMPLES = [
-        ["DJ", examples.QFT4],
+        ["Deutsch-Jozsa Algorithm", examples.QFT4],
         ["Grover's Algorithm", examples.GROVERS_ALGORITHM],
         ["Toffoli", examples.TOFFOLI],
         ["Bell State", examples.BELL_STATE],
