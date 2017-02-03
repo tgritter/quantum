@@ -687,8 +687,8 @@ module.exports = {
 
     QFT4: {"circuit":[
         {"type":"h","time":0,"targets":[0],"controls":[]},
-        {"type":"r2","time":1,"targets":[0],"controls":[1]},
-        {"type":"r4","time":2,"targets":[0],"controls":[2]},
+        {"type":"h","time":0,"targets":[1],"controls":[]},
+        {"type":"h","time":0,"targets":[2],"controls":[]},
         {"type":"r8","time":3,"targets":[0],"controls":[3]},
         {"type":"h","time":4,"targets":[1],"controls":[]},
         {"type":"r2","time":5,"targets":[1],"controls":[2]},
