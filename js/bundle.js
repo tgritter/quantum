@@ -689,15 +689,11 @@ module.exports = {
         {"type":"h","time":0,"targets":[0],"controls":[]},
         {"type":"h","time":0,"targets":[1],"controls":[]},
         {"type":"h","time":0,"targets":[2],"controls":[]},
-        {"type":"r8","time":3,"targets":[0],"controls":[3]},
-        {"type":"h","time":4,"targets":[1],"controls":[]},
-        {"type":"r2","time":5,"targets":[1],"controls":[2]},
-        {"type":"r4","time":6,"targets":[1],"controls":[3]},
-        {"type":"h","time":7,"targets":[2],"controls":[]},
-        {"type":"r2","time":8,"targets":[2],"controls":[3]},
-        {"type":"h","time":9,"targets":[3],"controls":[]},
-        {"type":"swap","time":10,"targets":[2,1],"controls":[]},
-        {"type":"swap","time":11,"targets":[0,3],"controls":[]}
+        {"type":"h","time":2,"targets":[2],"controls":[]},
+        {"type":"h","time":4,"targets":[2],"controls":[]},
+        {"type":"h","time":6,"targets":[0],"controls":[]},
+        {"type":"h","time":6,"targets":[1],"controls":[]},
+        {"type":"h","time":6,"targets":[2],"controls":[]}
     ],"qubits":4,"input":[0,0,0,0]},
 
     TOFFOLI: {"circuit":[
