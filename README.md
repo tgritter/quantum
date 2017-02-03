@@ -1,5 +1,5 @@
-# Quantum Circuit Simulator
+# Quantum Simulator Tutorial
 
-A browser based quantum circuit editor and simulator.
+A video tutorial series for those interested in learning about Quantum Computing.
 
-Application here: [http://davy.wtf/quantum](http://davy.wtf/quantum)
+Application here: [http://travisgritter.com/quantum/tutorial]
