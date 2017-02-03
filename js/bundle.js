@@ -740,7 +740,7 @@ module.exports = {
 
     BELL_STATE: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "x", "time": 1, "targets": [1], "controls": [0] }], "qubits": 2, "input": [0, 0] },
 
-    DEUTSCH_JOZSA: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "h", "time": 0, "targets": [1], "controls": [] }], { "type": "h", "time": 0, "targets": [2], "controls": [] }, { "type": "h", "time": 2, "targets": [2], "controls": [] }, "qubits": 3, "input": [0, 0, 0] },
+    
 
     QFT2: { "circuit": [{ "type": "h", "time": 0, "targets": [0], "controls": [] }, { "type": "r2", "time": 1, "targets": [0], "controls": [1] }, { "type": "h", "time": 2, "targets": [1], "controls": [] }, { "type": "swap", "time": 3, "targets": [0, 1], "controls": [] }], "qubits": 2, "input": [0, 0] },
 
@@ -1050,7 +1050,7 @@ window.onload = function () {
         return vars;
     };
 
-    var EXAMPLES = [["Deutsch-Jozsa", examples.DEUTSCH_JOZSA], ["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["Quantum Teleportation", examples.TELEPORTATION]];
+    var EXAMPLES = [["Grover's Algorithm", examples.GROVERS_ALGORITHM], ["Toffoli", examples.TOFFOLI], ["Bell State", examples.BELL_STATE], ["Quantum Teleportation", examples.TELEPORTATION]];
     var examplesEl = document.querySelector('#examples');
     EXAMPLES.forEach(function (example, i) {
         var name = example[0];
