@@ -31,7 +31,7 @@ const displayAmplitudes = (nqubits, amplitudes) => {
         }
         const probability = (prob * 100).toFixed(4) + '%';
         row.innerHTML = `
-            <td style="text-align: right">${amplitude}</td>
+            <td style="text-align: right">${amplitudes}</td>
             <td>|${state}></td>
             <td style="text-indent: 20px">${probability}</td>
         `;
