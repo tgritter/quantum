@@ -4,6 +4,7 @@ const Application = require('./application');
 const examples = require('./examples');
 
 const displayAmplitudes = (nqubits, amplitudes) => {
+    console.log('Test')
     const table = document.querySelector('#amplitudes');
     table.innerHTML = '';
     const hideBtn = document.querySelector('#hide-impossible');
