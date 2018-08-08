@@ -31,7 +31,7 @@ const displayAmplitudes = (nqubits, amplitudes) => {
         }
         const probability = (prob * 100).toFixed(4) + '%';
         row.innerHTML = `
-            <td style="text-align: right">${amplitudes}</td>
+            <td style="text-align: right">${amplitude}</td>
             <td>|${state}></td>
             <td style="text-indent: 20px">${probability}</td>
         `;
@@ -44,7 +44,6 @@ window.onload = () => {
     const canvas = document.getElementById('canvas');
     const app = new Application(canvas, 2);
     const editor = app.editor;
-    console.log('Test')
     const hideBtn = document.querySelector('#hide-impossible');
     hideBtn.onclick = evt => {
         evt.preventDefault();
@@ -65,7 +64,6 @@ window.onload = () => {
 
     document.querySelector('#evaluate').onclick = evt => {
         evt.preventDefault();
-        console.log("Test")
         app.circuit.gates.sort((a, b) => a.time - b.time);
         const size = Math.pow(2, app.circuit.nqubits);
         const amplitudes = new numeric.T(numeric.rep([size], 0), numeric.rep([size], 0));
